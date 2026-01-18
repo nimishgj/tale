@@ -10,6 +10,19 @@ $blue: #4a9ae1 !default;
 $shadow-color: rgba(0, 0, 0, .2) !default;
 $code-color: #bf616a !default;
 
+// CSS Custom Properties for theme switching
+:root {
+  --bg-color: #{$white};
+  --text-color: #{$default-color};
+  --heading-color: #{$default-shade};
+  --link-color: #{$blue};
+  --border-color: #{$grey-2};
+  --code-bg: #{$grey-3};
+  --code-color: #{$code-color};
+  --shadow-color: #{$shadow-color};
+  --tint-color: #{$default-tint};
+}
+
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
