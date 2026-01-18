@@ -8,7 +8,7 @@ layout: default
     {% if page.author %}
         {{ page.author }}
     {% else %}
-        {{ site.author.name }}
+        <a href="{{ site.author.url }}">{{ site.author.name }}</a>
     {% endif %}
 
     {% if page.date %}

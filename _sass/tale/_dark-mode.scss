@@ -80,6 +80,45 @@ footer span {
   }
 }
 
+// Code block overrides for dark mode
+[data-theme="dark"] {
+  code {
+    background-color: #2a2a2a !important;
+    color: #e5e5e5;
+  }
+
+  pre {
+    background-color: #2a2a2a !important;
+    color: #e5e5e5;
+  }
+
+  .highlight {
+    background-color: #2a2a2a !important;
+    color: #e5e5e5;
+  }
+
+  .highlighter-rouge {
+    background-color: #2a2a2a !important;
+  }
+}
+
+// Pagination overrides
+.pagination {
+  border-top-color: var(--border-color);
+
+  span {
+    color: var(--heading-color);
+  }
+
+  .top {
+    color: var(--text-color);
+  }
+
+  .arrow {
+    color: var(--text-color);
+  }
+}
+
 // Post page overrides
 .post {
   &-title {
